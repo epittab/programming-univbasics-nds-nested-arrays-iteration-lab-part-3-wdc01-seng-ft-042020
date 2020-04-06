@@ -10,9 +10,10 @@ def join_nested_strings(src)
     j = 0
     
     while j < src[i].length do 
-    
-    
+      
+      j += 1
     end
+    i += 1
   end
-  
+  return returnString
 end
